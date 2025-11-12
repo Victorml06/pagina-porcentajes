@@ -56,6 +56,8 @@ nav ol li a:hover {
 
 .dos-cajas {
     width: 100%;
+    display: flex;
+    
     margin-top: 30px;
 }
 .caja-izq {
@@ -67,6 +69,7 @@ nav ol li a:hover {
     padding: 1.7569% 1.3177%; /* equivalente a 24px 18px */
     text-align: center;
     margin-left: 4.685212298682284%; /*Margen izquierdo 64px*/
+    align-items: center;
     float: left;
 }
 .img-caja {
@@ -92,6 +95,7 @@ nav ol li a:hover {
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     padding: 1.756954612005857% 1.317715959004392%; /* equivalente a 24px 18px */
     margin-right: 4.685212298682284%; /*Margen derecho 64px*/
+    margin-left: 30%; /* separación entre cajas */
     text-align: center;
     float: left;
     align-items: center;
